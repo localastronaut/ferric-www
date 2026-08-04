@@ -1,0 +1,15 @@
+# Cloudflare Pages / Netlify header rules (shop book §25).
+# Astro fingerprints everything under /_astro/, so those are immutable.
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Cache-Control: public, max-age=604800
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  # microphone stays open on purpose — the S-7 plate is a working tuner
+  Permissions-Policy: microphone=(self), geolocation=(), camera=(), payment=()
