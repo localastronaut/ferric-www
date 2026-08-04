@@ -1,5 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- The signal cell, struck in Oxide on plate. Off-product the cell is always Oxide. -->
-  <rect x="2" y="2" width="96" height="96" rx="22" fill="#14161B"/>
-  <rect x="30" y="30" width="40" height="40" rx="9" fill="#B44B32"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+  <rect width="56" height="56" rx="12" fill="#0C0D10"/>
+  <g transform="translate(8 6) scale(0.72)">
+    <rect x="0" y="2" width="56" height="9" rx="2" fill="#B44B32"/>
+    <rect x="0" y="17" width="34" height="9" rx="2" fill="#EAE5D8"/>
+    <rect x="0" y="32" width="46" height="9" rx="2" fill="#EAE5D8"/>
+    <rect x="0" y="47" width="20" height="9" rx="2" fill="#EAE5D8"/>
+  </g>
 </svg>
